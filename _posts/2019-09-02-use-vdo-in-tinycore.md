@@ -12,14 +12,9 @@ The build.sh script in [https://github.com/hpmtissera/tinycore-kernel-build.git]
 
 
 
-To build KVDO use the build.sh script in [https://github.com/hpmtissera/kvdo-tinycore.git](https://github.com/hpmtissera/kvdo-tinycore.git). You can use the build.sh script in https://github.com/hpmtissera/vdo-tinycore to build Redhat VDO.  
+To build KVDO use the build.sh script in [https://github.com/hpmtissera/kvdo-tinycore.git](https://github.com/hpmtissera/kvdo-tinycore.git). You can use the build.sh script in [https://github.com/hpmtissera/vdo-tinycore](https://github.com/hpmtissera/vdo-tinycore) to build Redhat VDO.  
 
 
-By default, these scripts will build TCZs for Tiny Core:10.0-x86_64 (Kernel: 4.19.10-tinycore64).
+By default, these scripts will build TCZs for Tiny Core:10.0-x86_64 (Kernel: 4.19.10-tinycore64). Also, note that you need to use "depmod" command to load kernel modules after installing KVDO TCZ. 
 
-
- Also, note that you need to use "depmod" command to load kernel modules after installing KVDO TCZ. 
-
-A TCZ for Python Yaml module is included in vdo-tinycore. This python3.6-yaml.tcz and python3.6.tcz 
-
-are required dependecies for vdo.tcz. (Please note that there can be few other trivial dependencies)
+A TCZ for Python Yaml module is included in vdo-tinycore. This python3.6-yaml.tcz and python3.6.tcz are required dependecies for vdo.tcz. (Please note that there can be few other trivial dependencies)
