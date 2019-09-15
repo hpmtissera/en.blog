@@ -1,4 +1,6 @@
-# Generate JDK11 TCZ for Tiny Core Linux
+---
+title: Generate JDK11 TCZ for Tiny Core Linux
+---
 
 Tiny Core does not provide an official JDK build for Tiny Core 10. The java-installer.tcz available for Tiny Core 10 does not work with OpenJDK 11 (This is the case for all the previous versions of Tiny Core also).  You can use the Docker scripts in the following Github repository to generate a jdk11.tcz from OpenJDK11 binaries.
 
