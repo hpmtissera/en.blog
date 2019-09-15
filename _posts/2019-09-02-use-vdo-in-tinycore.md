@@ -1,3 +1,7 @@
+---
+title: Use Redhat VDO in Tiny Core Linux
+---
+
 Virtual Data Optimizer (VDO) is a compression/deduplication layer developed by Redhat. [https://www.redhat.com/en/blog/look-vdo-new-linux-compression-layer](https://www.redhat.com/en/blog/look-vdo-new-linux-compression-layer)
 
 
